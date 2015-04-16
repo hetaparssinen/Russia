@@ -1,0 +1,689 @@
+/*	RED		BLUE
+*	#E74C3C	#4B77BE
+*/
+
+* {
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+html, body {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+ 	box-sizing: border-box;         /* Opera/IE 8+ */	
+ 	box-sizing: content-box;
+ 	height: 100vh;
+ 	margin: 0;
+ 	padding: 0;
+ 	overflow: hidden;
+	background-color: #4B77BE;
+}
+
+#back:active {
+	background-color: #7AB55C
+}
+
+#container {
+	width: 100%;
+	height: 10vh;
+	color: white;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	
+}
+#cyrillic {
+	float: left;
+	height: 15vh;
+	width: 100%;
+	background-color: #E74C3C;
+}
+
+#points_text {
+	float: left;
+	width: auto;
+	height: 10vh;
+	margin-left: 1%;
+	margin-top: 1%;
+	margin-right: 1%;
+	font-size: 2em;
+}
+
+#points {
+	float: left;
+	width: 10%;
+	height: 10vh;
+	margin-top: 1%;
+	font-size: 2em;
+}
+
+#record_text {
+	float: left;
+	text-align: right;
+	width: 10%;
+	height: 10vh;
+	margin-left: 1%;
+	margin-top: 1%;
+	margin-right: 1%;
+	font-size: 2em;
+}
+
+#record {
+	float: left;
+	width: 10%;
+	height: 10vh;
+	margin-top: 1%;
+	margin-right: 1%;
+	font-size: 2em;
+}
+
+#time {
+	float: right;
+	width: 30%;
+	height: 10vh;
+	margin-top: 1%;
+	text-align: right;
+	font-size: 2em;
+}
+
+#cyrillicContent {
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin-top: 1%;
+	text-align: center;
+	font-size: 19em;
+	background-color: #E74C3C;
+	padding-bottom: 1%;
+}
+
+#nonCyrillic {
+	float: left;
+	height: 39vh;
+	width: 100%;
+	background-color: #4B77BE;
+}
+
+#left_top {
+	line-height: 150%;
+	float: left;
+	border: none;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	background-color: #4B77BE;
+	font-size: 8em;
+}
+
+#right_top {
+	line-height: 150%;
+	float: left;
+	border: none;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	background-color: #4B77BE;
+	font-size: 8em;
+}
+
+#left_bot {
+	line-height: 150%;
+	float: left;
+	border: none;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	background-color: #4B77BE;
+	font-size: 8em;
+}
+
+#right_bot {
+	line-height: 150%;
+	float: left;
+	border: none;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	background-color: #4B77BE;
+	font-size: 8em;
+}
+
+#back_button {
+	float: left;
+	width: 100%;
+	height: 22%;
+	text-align: center;
+	background-color: #4B77BE;
+	margin-top: 1%;
+}
+
+#back {
+	width: 10%;
+	height: 100%;
+	text-align: center;
+	border: none;
+	border-radius: 6px;
+	background-color: #E74C3C;	
+	color: white;
+	font-size: 2em;
+}
+
+@media screen and (max-width: 1499px) {
+* {
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+html, body {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+ 	box-sizing: border-box;         /* Opera/IE 8+ */	
+ 	box-sizing: content-box;
+ 	height: 100vh;
+ 	margin: 0;
+ 	padding: 0;
+ 	overflow: hidden;
+	background-color: #4B77BE;
+}
+
+#container {
+	width: 100%;
+	height: 100vh;
+	color: white;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	
+}
+#cyrillic {
+	float: left;
+	height: 45vh;
+	width: 100%;
+	background-color: #E74C3C;
+}
+
+#points_text {
+	float: left;
+	width: auto;
+	height: 10%;
+	margin-left: 1%;
+	margin-top: 1%;
+	margin-right: 1%;
+	font-size: 1em;
+}
+
+#points {
+	float: left;
+	width: 10%;
+	height: 10%;
+	margin-top: 1%;
+	font-size: 1em;
+}
+
+#record_text {
+	float: left;
+	text-align: right;
+	width: auto;
+	height: 10%;
+	margin-left: 1%;
+	margin-top: 1%;
+	margin-right: 1%;
+	font-size: 1em;
+}
+
+#record {
+	float: left;
+	width: auto;
+	height: 10%;
+	margin-top: 1%;
+	margin-right: 1%;
+	font-size: 1em;
+}
+
+#time {
+	float: right;
+	width: 30%;
+	height: 8vh;
+	margin-top: 1%;
+	margin-right: 1%;
+	text-align: right;
+	font-size: 2em;
+}
+
+#cyrillicContent {
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin-top: 1%;
+	text-align: center;
+	font-size: 9em;
+	background-color: #E74C3C;
+	padding-bottom: 1%;
+}
+
+#nonCyrillic {
+	float: left;
+	height: 45vh;
+	width: 100%;
+	background-color: #4B77BE;
+}
+
+#nonCyrillicContent {
+	float: left;
+	border: none;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background-color: #4B77BE;
+	color: white
+}
+
+#left_top {
+	line-height: 150%;
+	float: left;
+	border: none;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	background-color: #4B77BE;
+	font-size: 4em;
+}
+
+#right_top {
+	line-height: 150%;
+	float: left;
+	border: none;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	background-color: #4B77BE;
+	font-size: 4em;
+}
+
+#left_bot {
+	line-height: 150%;
+	float: left;
+	border: none;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	background-color: #4B77BE;
+	font-size: 4em;
+}
+
+#right_bot {
+	line-height: 150%;
+	float: left;
+	border: none;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	background-color: #4B77BE;
+	font-size: 4em;
+}
+
+#back_button {
+	float: left;
+	width: 100%;
+	height: 10vh;
+	text-align: center;
+	background-color: #4B77BE;
+	padding-top: 2%;
+	margin: auto;
+}
+
+#back {
+	width: 40%;
+	height: 100%;
+	text-align: center;
+	border: none;
+	border-radius: 6px;
+	background-color: #E74C3C;	
+	color: white;
+	font-size: 2em;
+}
+}
+
+@media screen and (max-width: 799px) {
+	* {
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+html, body {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+ 	box-sizing: border-box;         /* Opera/IE 8+ */	
+ 	box-sizing: content-box;
+ 	height: 100vh;
+ 	margin: 0;
+ 	padding: 0;
+ 	overflow: hidden;
+	background-color: #4B77BE;
+}
+
+#container {
+	width: 100%;
+	height: 100vh;
+	color: white;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	
+}
+#cyrillic {
+	float: left;
+	height: 45vh;
+	width: 100%;
+	background-color: #E74C3C;
+}
+
+#points_text {
+	float: left;
+	width: auto;
+	height: 10%;
+	margin-left: 1%;
+	margin-top: 1%;
+	margin-right: 1%;
+	font-size: 1em;
+}
+
+#points {
+	float: left;
+	width: 10%;
+	height: 10%;
+	margin-top: 1%;
+	font-size: 1em;
+}
+
+#record_text {
+	float: left;
+	text-align: right;
+	width: auto;
+	height: 10%;
+	margin-left: 1%;
+	margin-top: 1%;
+	margin-right: 1%;
+	font-size: 1em;
+}
+
+#record {
+	float: left;
+	width: auto;
+	height: 10%;
+	margin-top: 1%;
+	margin-right: 1%;
+	font-size: 1em;
+}
+
+#time {
+	float: right;
+	width: 30%;
+	height: 8vh;
+	margin-top: 1%;
+	margin-right: 1%;
+	text-align: right;
+	font-size: 2em;
+}
+
+#cyrillicContent {
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin-top: 1%;
+	text-align: center;
+	font-size: 9em;
+	background-color: #E74C3C;
+	padding-bottom: 1%;
+}
+
+#nonCyrillic {
+	float: left;
+	height: 45vh;
+	width: 100%;
+	background-color: #4B77BE;
+}
+
+#nonCyrillicContent {
+	float: left;
+	border: none;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background-color: #4B77BE;
+	color: white
+}
+
+#left_top {
+	line-height: 150%;
+	float: left;
+	border: none;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	background-color: #4B77BE;
+	font-size: 4em;
+}
+
+#right_top {
+	line-height: 150%;
+	float: left;
+	border: none;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	background-color: #4B77BE;
+	font-size: 4em;
+}
+
+#left_bot {
+	line-height: 150%;
+	float: left;
+	border: none;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	background-color: #4B77BE;
+	font-size: 4em;
+}
+
+#right_bot {
+	line-height: 150%;
+	float: left;
+	border: none;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	background-color: #4B77BE;
+	font-size: 4em;
+}
+
+#back_button {
+	float: left;
+	width: 100%;
+	height: 10vh;
+	text-align: center;
+	background-color: #4B77BE;
+	padding-top: 2%;
+	margin: auto;
+}
+
+#back {
+	width: 40%;
+	height: 100%;
+	text-align: center;
+	border: none;
+	border-radius: 6px;
+	background-color: #E74C3C;	
+	color: white;
+	font-size: 2em;
+}
+}
+
+@media only screen and (max-width: 480px) {
+    /* iPhone CSS rules here */
+* {
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+html, body {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+ 	box-sizing: border-box;         /* Opera/IE 8+ */	
+ 	box-sizing: content-box;
+ 	height: 100vh;
+ 	margin: 0;
+ 	padding: 0;
+ 	overflow: hidden;
+	background-color: #4B77BE;
+}
+
+#container {
+	width: 100%;
+	height: 100vh;
+	color: white;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	
+}
+#cyrillic {
+	float: left;
+	height: 45vh;
+	width: 100%;
+	background-color: #E74C3C;
+}
+
+#points_text {
+	float: left;
+	width: auto;
+	height: 10%;
+	margin-left: 1%;
+	margin-top: 1%;
+	margin-right: 1%;
+	font-size: 1em;
+}
+
+#points {
+	float: left;
+	width: 10%;
+	height: 10%;
+	margin-top: 1%;
+	font-size: 1em;
+}
+
+#record_text {
+	float: left;
+	text-align: right;
+	width: auto;
+	height: 10%;
+	margin-left: 1%;
+	margin-top: 1%;
+	margin-right: 1%;
+	font-size: 1em;
+}
+
+#record {
+	float: left;
+	width: auto;
+	height: 10%;
+	margin-top: 1%;
+	margin-right: 1%;
+	font-size: 1em;
+}
+
+#time {
+	float: right;
+	width: 30%;
+	height: 8vh;
+	margin-top: 1%;
+	margin-right: 1%;
+	text-align: right;
+	font-size: 2em;
+}
+
+#cyrillicContent {
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin-top: 1%;
+	text-align: center;
+	font-size: 7em;
+	background-color: #E74C3C;
+}
+
+#nonCyrillic {
+	float: left;
+	height: 45vh;
+	width: 100%;
+	background-color: #4B77BE;
+}
+
+#nonCyrillicContent {
+	float: left;
+	border: none;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background-color: #4B77BE;
+	color: white
+}
+
+#left_top {
+	line-height: 150%;
+	float: left;
+	border: none;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	background-color: #4B77BE;
+	font-size: 3em;
+}
+
+#right_top {
+	line-height: 150%;
+	float: left;
+	border: none;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	background-color: #4B77BE;
+	font-size: 3em;
+}
+
+#left_bot {
+	line-height: 150%;
+	float: left;
+	border: none;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	background-color: #4B77BE;
+	font-size: 3em;
+}
+
+#right_bot {
+	line-height: 150%;
+	float: left;
+	border: none;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	background-color: #4B77BE;
+	font-size: 3em;
+}
+
+#back_button {
+	float: left;
+	width: 100%;
+	height: 10vh;
+	text-align: center;
+	background-color: #4B77BE;
+	padding-top: 0%;
+	margin: auto;
+}
+
+#back {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	border: none;
+	border-radius: 0px;
+	background-color: #E74C3C;	
+	color: white;
+	font-size: 1em;
+}
+}
